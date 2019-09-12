@@ -1,0 +1,106 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background: #efefef;
+	font-size: 16px; 
+	color: #777;
+	font-family: sans-serif;
+	font-weight: 300;
+}
+.regbox {
+	margin: 5% auto;
+	height: 630px;
+	background: #fff;
+	box-shadow: 0 2px 4px rgba(0, 0,0,0.6);
+	box-sizing: border-box;
+	padding: 40px;
+	width: 320px;
+}
+
+.loginbox {
+	margin: 5% auto;
+	height: 430px;
+	background: #fff;
+	box-shadow: 0 2px 4px rgba(0, 0,0,0.6);
+	box-sizing: border-box;
+	padding: 40px;
+	width: 320px;
+}
+
+h3 {
+	margin: 0 0 20px 0;
+	font-wight: 300;
+	font-size: 28px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"]
+{
+	display: block;
+	box-sizing: boder-box;
+	margin-bottom: 6px;
+/* 	width: 220px;
+	height: 32px; */
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #aaa;
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	transition: 0.2s ease;
+}
+input[type="submit"]
+{
+	margin-bottom: 28px;
+	width: 220px;
+	height: 36px;
+	background: #f44336;
+	border: none;
+	border-radius: 2px;
+	color: dark-gray;
+	font-family: sans-seriff;
+	font-weight: 500;
+	text-transform: uppercase;
+	transition: 0.2s ease;
+	cursor: pointer;
+	
+}
+input[type="submit"]:hover,
+input[type="submit"]:focus
+{
+	background: light-gray;
+	transition: 0.2s ease;
+}
+
+#or {
+	text-align: center;
+	font-weight: 500;
+}
+input
+{
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px auto;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+/* add appropriate colors to fb, twitter and google buttons */
+
+
+hr { 
+	font-wight: 300;
+}
+
+
